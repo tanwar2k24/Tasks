@@ -1,0 +1,16 @@
+Some Basics Commands
+
+Move around your directory structure: cd
+Create new directories: mkdir <directory name>
+Create files (and modify their metadata): touch <name>
+Copy files or directories: cp <file1> <address2>
+Move files or directories: mv <file1> <address2>
+Delete files or directories: rm <name>
+Download files found at specific URLs: curl
+Search for fragments of text inside larger bodies of text: grep
+View a file's contents page by page: less, cat
+cd .. : to come out of specific directory 
+cd Desktop/project/src : suppose if we want to go at src location /folder in our pc
+ls : gives all the list of files in the current folder
+rmdir : delete the directory only if it is empty
+-r : delete the directory if its not empty with the data.

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="boxes">
+            
+            <form action="">
+                <div class="form_container1">
+                    <h4>Primary Details</h4>
+                    <div class="pform">   
+                        <label for="">Medicare No</label>
+                        <input id="med" name="med" ><b> / </b>
+                        <input id="med2" name="med"/>
+                        <label for="date">Valid Till</label>
+                        <input type="date" id="date" name="date"/>
+                    </div>
+                    <div class="pform">   
+                        <label for="title" >Title</label>
+                        <select class="title">
+                            <option value="">None</option>
+                        </select>
+                    </div>
+                    <p class="name3">Lastname, Firstname, Middlen</p>
+                    <div class="pform">   
+                        <label for="">Name</label>
+                        <input id="name" name="name" class="name">
+                    </div>
+                    <div class="pform">   
+                        <label for="">Pref. Name</label>
+                        <input id="name" name="name" class="prefname">
+                    </div>
+                    <div class="pform">   
+                        <label for="dob">DOB</label>
+                        <input id="dob" type="date" name="dob" >
+                    </div>
+                    <div class="pform"> 
+                        <label for="sex">Sex</label>
+                        <input type="radio" name="sex" id="sex-m" >
+                        <label for="sex-m">Male</label>
+                        <input  type="radio" name="sex" id="sex-f">
+                        <label for="sex-f">Female</label>
+                    </div>
+                    <div class="pform">   
+                        <label for="">Family Name</label>
+                        <input type="text" name="name" class="famname">
+                    </div>
+                </div>
+                <div class="form_container2">
+                    <h4>Contact Details</h4>
+                    <div class="pform">
+                        <p class="pname">Home &emsp;&emsp;&emsp;&emsp;Work</p>
+                        <label for="">Phone</label>
+                        <input type="text" name="phone" class="home">
+                        <input type="text" name="phone" class="work"/>
+                        <p class="pname">Mobile &emsp; &emsp;&emsp;  Fax</p>
+                        <input type="text" name="phone" class="mobile">
+                        <input type="text" name="phone" class="fax"/>
+                        <p class="pname">Next of Kin &emsp; Next of Kin Ph:</p>
+                        <input type="text" name="phone" class="mobile">
+                        <input type="text" name="phone" class="fax"/>
+                    </div>
+                    <div class="pform">   
+                        <label for="">Emerg. No</label>
+                        <input type="text" name="name" class="num">
+                    </div>
+                    <div class="pform">   
+                        <label for="">Email</label>
+                        <input type="email" name="name" class="email">
+                    </div>
+                   
+                </div>
+                <div class="form_container3">
+                    <h4>Address Details</h4>
+                    <div class="inner_container1">
+                        <h5>Residential Address</h5>
+                        <div class="pform">   
+                            <label for="">Address 1</label>
+                            <input  name="name" class="add1">
+                        </div>
+                        <div class="pform">   
+                            <label for="">Address 2</label>
+                            <input  name="name" class="add2">
+                        </div>
+                        <div class="pform">   
+                            <label for="">Suburb</label>
+                            <input  name="name" class="sub">
+                            <label for="" class="state">State</label>
+                            <select class="sel">
+                                <option>VIC</option>
+                                <option selected>HR</option>
+                                <option>RJ</option>
+                            </select>
+                        </div>
+                        <div class="pform">   
+                            <label for="">Postal Code</label>
+                            <input  name="name" class="pc">
+                            <label for="" class="count" >Country</label>
+                            <input name="name" value="" class="country" placeholder="INDIA">
+                        </div>
+                    </div>
+                    <div class="inner_container2">
+                        <h5>Single Address</h5>
+                        <div class="pform">
+                            <label for=""  >Are Mailing Address and Residential Address same ?</label>
+                            <input type="checkbox" ><span class="yes">Yes</span>
+                        </div>
+                    </div>
+                    <div class="inner_container3">
+                        <h5>Mailing Address</h5>
+                        <div class="pform">   
+                            <label for="">Address 1</label>
+                            <input  name="name" class="add1">
+                        </div>
+                        <div class="pform">   
+                            <label for="">Address 2</label>
+                            <input  name="name" class="add2">
+                        </div>
+                        <div class="pform">   
+                            <label for="">Suburb</label>
+                            <input  name="name" class="sub">
+                            <label for="" class="state">State</label>
+                            <select class="sel">
+                                <option>VIC</option>
+                                <option>HR</option>
+                                <option>RJ</option>
+                            </select>
+                        </div>
+                        <div class="pform">   
+                            <label for="">Postal Code</label>
+                            <input  name="name" class="pc">
+                            <label for="" class="count" >Country</label>
+                            <input name="name" value="" class="country" placeholder="INDIA">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pform">
+                    <label for="" class="ihi">IHI Number &emsp; &emsp;80036&emsp;</label>
+                    <input type="text">
+                </div>
+                <div class="pform">
+                    <label for="" class="nst">Number Status</label>
+                    <input type="text" class="numst">
+                </div>
+                <div class="pform">
+                    <label for="" class="nst">Record Status</label>
+                    <input type="text" class="recst">
+                </div>
+                <div class="pform">
+                    <label for="" class="nst">Last Updated</label>
+                    <input type="text" class="last">
+                </div>
+                <div class="btn">
+                    <button type="submit" value="submit" class="">Submit</button>
+                    <button type="reset" value="clear">Clear</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

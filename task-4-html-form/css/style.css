@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: beige;
+}
+.container{
+    max-width:600px;
+    margin: 0px auto;
+    border: solid 3px rgb(13, 116, 180);
+    background-color: rgb(200, 232, 246);
+}
+.boxes{
+    max-width: 100%;
+    margin: 0px auto;
+    
+}
+.form_container1{
+    margin:10px;
+    border: solid 2px rgb(108, 192, 237);
+}
+h4{
+    margin:1px 15px 15px 3px;
+}
+.pform{
+    padding:1px;
+    margin-left:10px;
+}
+#med{
+    margin-left: 15px;
+    width:60px;
+}
+#med2{
+    width:20px;
+}
+.title{
+    margin-left: 69px;
+    width:90px;
+}
+.name3{
+    margin-left: 13%;
+}
+.name{
+    margin-left: 60px;
+    width:250px; 
+}
+.prefname{
+    margin-left: 25px;
+}
+#dob{
+    margin-left:64px ;
+}
+#sex-m{
+    margin-left: 70px;
+}
+.famname{
+    margin-left:8px;
+    margin-bottom: 10px;
+}
+.form_container2{
+    margin:10px;
+    border: solid 2px rgb(108, 192, 237);
+}
+.pname{
+    margin-left: 18%;
+}
+.home{
+    margin-left: 53px;
+    width: 100px;
+}
+.work{
+    width:100px;
+    margin-left:-4px;
+}
+.mobile{
+    margin-left: 96px;
+    width: 100px;
+}
+.fax{
+    width:100px;
+    margin-left:-4px;
+}
+.num{
+    margin-left: 22px;
+    width:100px;
+}
+.email{
+    margin-left:53px;
+    margin-bottom:5px;
+}
+.form_container3{
+    margin:10px;
+    border: solid 2px rgb(108, 192, 237);
+}
+.inner_container1{
+    margin:10px;
+    border: solid 2px rgb(108, 192, 237);
+}
+h5{
+    margin:1px 15px 15px 3px;
+}
+.add1{
+    margin-left:14px;
+    width: 250px;
+}
+.add2{
+    margin-left:14px;
+    width: 250px;
+}
+.sub{
+    margin-left:31px;
+    width: 100px;
+}
+.state{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.sel{
+    width:87px;
+}
+.pc{
+    width: 85px;
+}
+.count{
+    margin-left:5px;
+}
+.country{
+    width: 90px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.inner_container2{
+    margin:10px;
+    border: solid 2px rgb(108, 192, 237);
+    padding-bottom: 7px;
+    
+}
+h5{
+    margin:1px 15px 15px 3px;
+}
+.yes{
+    margin-left:4px;
+}
+.inner_container3{
+    margin:10px;
+    border: solid 2px rgb(108, 192, 237);
+}
+h5{
+    margin:1px 15px 15px 3px;
+}
+.ihi{
+    margin-left: 20px;
+}
+.nst{
+    margin-left: 20px;
+}
+.numst{
+    margin-left: 20px;
+    width: 220px;
+}
+.recst{
+    margin-left: 25px;
+    width: 220px;
+}
+.last{
+    margin-left: 28px;
+    width: 220px;
+    margin-bottom: 30px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(234, 9, 99); */
+}
+button{
+    padding:5px;
+    width: 150px;
+    margin:5px 5px 20px 5px;
+    /* margin-bottom: ; */
+}

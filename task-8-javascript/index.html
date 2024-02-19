@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript</title>
+</head>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+    background-color: rgba(184, 181, 180, 0.87);
+    padding: 10px 3px 500px 3px;
+    max-width: 950px;
+    margin: 0 auto;
+  }
+
+  .div1 {
+    background-color: rgb(240, 236, 236);
+    padding: 10px;
+    margin: 8px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+  }
+
+  .num1 {
+    padding-bottom: 3px;
+    font-weight: bold
+  }
+
+  .div2 {
+    background-color: rgb(240, 236, 236);
+    padding: 10px;
+    margin: 1px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+  }
+
+  .num2 {
+    padding-bottom: 3px;
+    font-weight: bold
+  }
+
+  .div3 {
+    background-color: rgb(240, 236, 236);
+    padding: 10px;
+    margin: 1px 5px 5px 5px;
+    border-radius: 3px;
+  }
+
+  .div3 button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 0ch;
+    border-radius: 5px;
+  }
+
+  #result-div {
+    background-color: white;
+    height: 80px;
+    border-radius: 5px;
+    margin: 40px 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .split-div {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  
+</style>
+
+<body>
+  <div class="container">
+    <div class="div1">
+      <label for="number1" class="num1">Enter a Number </label>
+      <input type="text" id="number1" min="1" required>
+    </div>
+    <div class="div2">
+      <label for="splitting" class="num2">Enter number of times you want to split</label>
+      <input type="text" name="" id="splitter" min="1" required>
+    </div>
+    <div class="div3">
+      <button onclick="action()">Split</button>
+    </div>
+
+    <div id="result-div">
+
+    </div>
+
+  </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
